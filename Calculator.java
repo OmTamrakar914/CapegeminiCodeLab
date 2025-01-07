@@ -1,7 +1,10 @@
 import java.util.*;
 
 public class Calculator{
+    public static int add(int a, int b){
 
+    return a+b;
+   }
     public static void main(String []args){
 
         Scanner sc = new Scanner(System.in);
@@ -23,6 +26,8 @@ public class Calculator{
         System.out.println(" 4. Division");
 
         int opt = sc.nextInt();
+
+
 
         if(opt == 1){
             
